@@ -2,17 +2,11 @@
 
 A Neon Genesis Evangelion inspired, five-minute countdown specifically designed for the **Waveshare ESP32-S3-RLCD-4.2**. Built with OpenAI Codex.
 
-<img src="preview/ready-3x.png" alt="EVA Countdown monochrome firmware preview" width="400">
+<img src="preview/ready-3x.png" alt="EVA Countdown monochrome firmware preview" width="500">
 
 See Video: https://www.youtube.com/shorts/I0qOmyr1DD8
 
-<img src="preview/eva-countdown-0.1.0.gif" alt="EVA Countdown running on the Waveshare RLCD device" width="600">
-
-## What it does
-- Timer (5mins countdown) with start, pause, resume and reset.
-- Uses the **True LCD NGE** digit font and **Zen Antique** Japanese lettering.
-- Flashes the timer region during the final minute and stops at zero.
-- Works offline: no Wi-Fi setup, account, SD card or runtime font loading.
+<img src="preview/eva-countdown-0.1.0.gif" alt="EVA Countdown running on the Waveshare RLCD device" width="500">
 
 ## v0.1.0 — Prerelease notes
 
@@ -20,18 +14,31 @@ This is the first public prerelease: a small, working countdown to try on the **
 
 Feedback and Bug reports are welcome. Include the firmware version, board model, and steps to reproduce the issue. See the [full release notes](docs/release-notes-v0.1.0.md) and [contribution guide](CONTRIBUTING.md).
 
+## Follow the project
+
+I share my builds and the things I learn along the way at [Kopigeek Builds](https://www.kopigeek.com).
+
+## Support the project
+
+If you enjoy EVA Countdown, sharing your build, reporting a bug, or giving the repository a star is a lovely way to support it. Thanks for trying it out! 
+
+If you're planning to build one, you can support the project by purchasing the [Waveshare ESP32-S3-RLCD-4.2 through my affiliate link — placeholder](https://example.com/waveshare-affiliate). I may earn a commission if you purchase through the link.
+
+Already have the hardware? You can also [buy me a coffee — placeholder](https://example.com/buy-me-a-coffee) to support future builds. No pressure—the project is free to use either way.
+
+---
+
+# Installation
+
 ## Hardware
 
 | Item | Required |
 | --- | --- |
 | Board | Waveshare **ESP32-S3-RLCD-4.2**, ST7305 monochrome RLCD |
 | Screen | 4.2-inch, 400 × 300 in landscape |
-| Connection | USB-C **data** cable |
 | Battery | Optional |
 
-Note: Only the Waveshare ESP32-S3-RLCD-4.2 board is supported; other displays and ESP32 boards have not been validated.
-
-You may purchase the board here:
+Note: Other displays and ESP32 boards have not been validated.
 
 ## Controls
 
@@ -41,6 +48,12 @@ You may purchase the board here:
 | Hold **KEY** for 0.8 seconds | Reset to five minutes and pause |
 | Press **BOOT** while the app runs | Reset to five minutes and pause |
 | Press **KEY** after time expires | Start a fresh five-minute countdown |
+
+## What it does
+- Timer (5mins countdown) with start, pause, resume and reset.
+- Uses the **True LCD NGE** digit font and **Zen Antique** Japanese lettering.
+- Flashes the timer region during the final minute and stops at zero.
+- Works offline: no Wi-Fi setup, account, SD card or runtime font loading.
 
 ## Agentic Build (OpenAI Codex)
 
@@ -94,22 +107,6 @@ PYTHON=.venv/bin/python ./tools/preview.sh
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for the small-change workflow and [release preparation](docs/releasing.md) for packaging.
 
-
-## Follow the project
-
-I share my builds and the things I learn along the way at [Kopigeek](https://www.kopigeek.com).
-
-Read the story behind EVA Countdown: [Substack blog post — placeholder](https://example.com/eva-countdown-blog).
-
-## Support the project
-
-If you enjoy EVA Countdown, sharing your build, reporting a bug, or giving the repository a star is a lovely way to support it. Thanks for trying it out.
-
-If you're planning to build one, you can support the project by purchasing the [Waveshare ESP32-S3-RLCD-4.2 through my affiliate link — placeholder](https://example.com/waveshare-affiliate). I may earn a commission if you purchase through the final affiliate link.
-
-Already have the hardware? You can also [buy me a coffee — placeholder](https://example.com/buy-me-a-coffee) to support future builds. No pressure—the project is free to use either way.
-
-> The blog, affiliate, and coffee URLs above are placeholders. Replace them before publishing; they are not purchase or donation links yet.
 
 ## Credits and licensing
 
