@@ -1,0 +1,40 @@
+name: Build and check
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  host:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r tools/requirements.txt
+      - run: ./tools/check.sh
+      - run: sha256sum -c assets/SHA256SUMS
+      - run: python tools/generate_assets.py
+      - run: ./tools/preview.sh
+      - run: git diff --exit-code -- main/assets.h preview/
+  firmware:
+    runs-on: ubuntu-24.04
+    container: espressif/idf:v5.4.2
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build ESP32-S3 firmware
+        shell: bash
+        run: |
+          . "$IDF_PATH/export.sh"
+          idf.py build
+      - name: Package candidate
+        shell: bash
+        run: |
+          . "$IDF_PATH/export.sh"
+          python tools/package_release.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: eva-countdown-candidate
+          path: dist/*

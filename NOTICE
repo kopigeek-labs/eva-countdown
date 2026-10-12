@@ -1,0 +1,12 @@
+EVA Countdown
+Copyright 2026 Kopigeek Labs and contributors
+
+Project code is licensed under Apache-2.0. Separately licensed assets retain
+original terms; see THIRD_PARTY.md and licenses/.
+
+Display initialization and pixel packing incorporate work by Waveshare,
+Copyright 2026 Waveshare (Apache-2.0).
+Design reference: eva-timer, Copyright 2023 Scotty Kwok (MIT).
+True LCD NGE by scottykwok, based on True LCD by hippiefabou (CC BY-SA 3.0).
+Zen Antique and Barlow Condensed are distributed under SIL OFL 1.1.
+This is an unofficial fan project, not affiliated with Evangelion rights holders.
