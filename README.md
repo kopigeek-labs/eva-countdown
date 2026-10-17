@@ -2,7 +2,7 @@
 
 An Evangelion-inspired desk companion for the **Waveshare ESP32-S3-RLCD-4.2**: countdown, offline clock and 25-minute Pomodoro. Built with OpenAI Codex.
 
-<img src="preview/v0.2/modes.png" alt="EVA Countdown monochrome firmware preview" width="600">
+<img src="preview/v0.2/modes.png" alt="EVA Countdown monochrome firmware preview" width="800">
 
 See Video: https://www.youtube.com/shorts/I0qOmyr1DD8
 
