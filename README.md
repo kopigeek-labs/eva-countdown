@@ -16,7 +16,7 @@ New Features:
 
 **Animation Improvements**: Via an awake computer USB connection, Countdown highlights External power. Disconnecting USB triggers the handover animation to "Internal" power and starts the timer when Countdown is selected.
 
-Feedback and Bug reports are welcome.
+As always, Feedback and Bug reports are welcome.
 
 ## v0.1.0 — Prerelease notes
 
@@ -24,20 +24,21 @@ The original version: an evangelion inspired countdown timer to try on the **Wav
 
 ## Follow the project
 
-I share my builds and the things I learn along the way at [Kopigeek Builds](https://www.kopigeek.com). The code stays free and open source under Apache 2.0. Sharing your build or giving the repository a star helps too.
+The code stays free and open source under Apache 2.0. Sharing your build or giving the repository a star helps too. I share my builds and the things I learn along the way at [Kopigeek Builds](https://www.kopigeek.com).
 
 ## Help fund the next weekend build
 
-I'm a hobbyist, and this is something I work on during the weekends. If you enjoy EVA Countdown, **buy me a coffee or use my Waveshare affiliate link** to help me keep building and sharing.
+I'm a hobbyist, and this is something I work on during the weekends. Lately, this has been using Codex to vibe out various ESP-32 projects. If you enjoy EVA Countdown, **buy me a coffee or use my Waveshare affiliate link** to help me keep building and sharing.
 
-Your support earns me a few more **wife approval points** for the next hardware purchase. ☕
+Your support earns me a few more **wife approval points** for the next hardware purchase. Thank you! 🙏🏻
 
 **[Buy me a coffee — fuel the next build](https://buymeacoffee.com/kopigeek)** (Prefer Ko-fi? [You can support me there](https://ko-fi.com/L1C828Q8LH).)
 
 **[Get the Waveshare board through my affiliate link](https://www.waveshare.com/esp32-s3-rlcd-4.2.htm?&aff_id=187720)**
 
-**Affiliate disclosure:** I may earn a commission if you purchase through the Waveshare link.
-
+<a href="https://www.waveshare.com/esp32-s3-rlcd-4.2.htm?&amp;aff_id=187720">
+  <img src="docs/images/waveshare-esp32-s3-rlcd-4.2.jpg" alt="Waveshare ESP32-S3-RLCD-4.2 board — view product through my affiliate link" width="600">
+</a>
 
 ---
 
