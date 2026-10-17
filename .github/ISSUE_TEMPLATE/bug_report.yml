@@ -1,0 +1,41 @@
+name: Bug report
+description: Report a firmware, display or build problem.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for testing EVA Countdown. Include the selected mode and power connection so we can reproduce the issue.
+        Remove device identifiers, credentials and personal paths from logs. Do not attach flash backups.
+  - type: input
+    id: version
+    attributes:
+      label: Firmware version or commit
+      placeholder: "0.2.0-dev, or a commit hash"
+    validations:
+      required: true
+  - type: input
+    id: hardware
+    attributes:
+      label: Board and power connection
+      description: Include the board model, whether a main battery is installed, and computer USB / wall charger / battery power.
+      placeholder: "Waveshare ESP32-S3-RLCD-4.2, computer USB, main battery installed"
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Include the selected mode and button or cable actions.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected and actual behaviour
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Photos, sanitized logs or build details
+      description: For build problems, include the ESP-IDF version, operating system and exact command. For display problems, a clear photo helps.

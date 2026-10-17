@@ -1,0 +1,22 @@
+name: Feature request
+description: Suggest a mode, interaction or visual improvement.
+body:
+  - type: textarea
+    id: use-case
+    attributes:
+      label: What would you like to do?
+      description: Describe the use case or problem the change would help with.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Suggested behaviour
+      description: Describe the screen, controls or hardware involved. Sketches are welcome.
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: References and alternatives
+      description: Link any relevant project or asset and its license if you know it, so its creators can be credited.

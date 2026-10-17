@@ -1,0 +1,16 @@
+/build*/
+/sdkconfig
+/sdkconfig.old
+/.venv/
+/assets/fonts/
+__pycache__/
+.DS_Store
+/artifacts/
+/dist/
+/backups/
+*.bin
+*.elf
+*.map
+*.log
+.env
+.env.*
