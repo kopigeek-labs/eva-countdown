@@ -2,7 +2,7 @@
 
 An Evangelion-inspired desk companion for the **Waveshare ESP32-S3-RLCD-4.2**: countdown, offline clock and 25-minute Pomodoro. Built with OpenAI Codex.
 
-<img src="preview/v0.2/modes.png" alt="EVA Countdown monochrome firmware preview" width="500">
+<img src="preview/v0.2/modes.png" alt="EVA Countdown monochrome firmware preview" width="600">
 
 See Video: https://www.youtube.com/shorts/I0qOmyr1DD8
 
@@ -34,7 +34,7 @@ Your support earns me a few more **wife approval points** for the next hardware 
 
 **[Buy me a coffee — fuel the next build](https://buymeacoffee.com/kopigeek)** (Prefer Ko-fi? [You can support me there](https://ko-fi.com/L1C828Q8LH).)
 
-**[Get the Waveshare board through my affiliate link](https://www.waveshare.com/esp32-s3-rlcd-4.2.htm?&aff_id=187720)**
+**[Get the Waveshare RLCD board for the project ](https://www.waveshare.com/esp32-s3-rlcd-4.2.htm?&aff_id=187720)**
 
 <a href="https://www.waveshare.com/esp32-s3-rlcd-4.2.htm?&amp;aff_id=187720">
   <img src="docs/images/waveshare-esp32-s3-rlcd-4.2.jpg" alt="Waveshare ESP32-S3-RLCD-4.2 board — view product through my affiliate link" width="600">
